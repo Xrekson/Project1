@@ -33,6 +33,24 @@
                 font-size: 30px;
                 border: 5px solid rgb(134, 255, 215);
             }
+            prime {
+    background-color: #c40000;
+    color: rgb(0, 0, 0);
+    font-size: 16px;}
+          
+
+@media only screen and (min-width: 768px) {
+  div.p1{
+    font-size: 30px ;
+  }
+
+}
+@media only screen and (min-width: 600px) {
+  div.EXE{
+      font-size: 22px;
+    }
+}
+
             </style>
 <h1>Indraneel Brahma
     Hotel SNU
@@ -80,48 +98,41 @@ margin-bottom: 10px;">Check Out-time:</b><br>
 <input type="text" id="fname" name="fname">
 
 <div>
-<input type="submit" id="1" value="Confirm" onmousedown="dis()" style="background-color: #4CAF50;
-border: none;
+<input type="submit" 
+id="1" 
+value="Confirm" 
+class="p1" 
+onmousedown="dis()" style="background-color: #4CAF50;
 color: white;
-padding: 15px 32px;
-text-decoration: none;
-display: inline-block;
 font-size: 16px;"></input>
 <br>
-<input type="button" value="Cancel" id="2" onmousedown="dis()" style="background-color: #ff004c;
-border: none;
+<input type="button" 
+value="Cancel" 
+id="2" class="p1" 
+onmousedown="dis()" 
+style="background-color: #ff004c;
 color: white;
-padding: 15px 32px;
-text-decoration: none;
-display: inline-block;
 font-size: 16px;"></input>
 <br>
-<input type="button" value="Update" id="3" onmousedown="dis()"style="background-color: blue;
-border: none;
+<input type="button" 
+value="Update" 
+id="3" class="p1" 
+onmousedown="dis()"
+style="background-color: blue;
 color: white;
-padding: 15px 32px;
-text-decoration: none;
-display: inline-block;
 font-size: 16px;"></input>
 <br>
-<input type="button" value="Pending" id="4" onmousedown="dis()"
+<input type="button" 
+value="Pending" 
+id="4" class="p1" 
+onmousedown="dis()" 
 style="background-color: #ea00ff;
-border: none;
 color: white;
-padding: 15px 32px;
-text-decoration: none;
-display: inline-block;
 font-size: 16px;"></input>
 </div>
 
 <prime>
-    <input type="submit" id="o" value="Other" onmousedown="window.location.reload();" style ="background-color: #ffffff;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 15px 32px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;"></input>
+    <input type="submit" id="o" class="EXE" value="Other" onmousedown="window.location.reload();"></input>
 </prime>
 
 </body>
